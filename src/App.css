@@ -1,7 +1,14 @@
-.card {
-  padding: 2em;
+body {
+  font-family: 'montserrat', sans-serif;
 }
 
-.read-the-docs {
-  color: #888;
+#app {
+  background-image: url('./assets/cold-bg.jpg');
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4s;
+}
+
+#app.warm {
+  background-image: url('./assets/warm-bg.jpg');
 }
